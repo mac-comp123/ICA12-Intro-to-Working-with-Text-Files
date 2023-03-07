@@ -1,5 +1,5 @@
 # my file
-fileIn = open("alice.txt", 'r')
+fileIn = open("res/alice.txt", 'r')
 line1 = fileIn.readline()
 print(line1)
 line2 = fileIn.readline()
@@ -13,4 +13,3 @@ def printAbbrev(filename):
     for line in f:
         print(line[0:20])
     f.close()
-    
